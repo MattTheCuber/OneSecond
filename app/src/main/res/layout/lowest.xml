@@ -1,0 +1,163 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/gps_popup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/stopwatch_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-25dp"
+                android:padding="1dp"
+                android:text="@string/default_lowest_stopwatch"
+                android:textColor="#000000"
+                android:textSize="100sp" />
+
+            <TextView
+                android:id="@+id/ms_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-20dp"
+                android:padding="1dp"
+                android:text="@string/ms_text"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/best_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/best_text"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/best_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/best_view_default"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ms_view_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:padding="1dp"
+                android:text="@string/ms_text"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <!--<Button
+				android:id="@+id/reset_record_btn"
+				android:layout_width="50dp"
+				android:layout_height="35dp"
+				android:layout_marginStart="20dp"
+				android:background="@android:color/transparent"
+				android:text="@string/reset_record_btn"
+				android:textColor="#000000"
+				android:textSize="12sp" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <Button
+                android:id="@+id/start_stop_btn"
+                android:layout_width="200dp"
+                android:layout_height="75dp"
+                android:background="@drawable/buttonshape"
+
+                android:shadowColor="#8F8F8F"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="2"
+                android:text="@string/start_stop_btn"
+                android:textColor="#000000"
+                android:textSize="37sp" />
+
+            <!--android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="4dp"
+            android:paddingTop="15dp"
+            android:paddingEnd="4dp"
+            android:paddingBottom="15dp"-->
+            <Button
+                android:id="@+id/reset_btn"
+                android:layout_width="115dp"
+                android:layout_height="75dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#8F8F8F"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="2"
+                android:text="@string/reset_btn"
+                android:textColor="#000000"
+                android:textSize="37sp" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/linear7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <Button
+                android:id="@+id/google_play_btn"
+                android:layout_width="60dp"
+                android:layout_height="42.6dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/gpg"
+                tools:layout_margin="10dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

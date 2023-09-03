@@ -1,0 +1,43 @@
+<resources>
+	<color name="colorPrimary">#87CEFA</color>
+	<color name="colorPrimaryDark">#525252</color>
+	<color name="colorAccent">#6EB5E1</color>
+    <color name="white">#FFFFFF</color>
+	<color name="green">#17CF17</color>
+	<color name="dark_green">#4CAF50</color>
+	<color name="pink">#ad1f79</color>
+    <color name="red">#8B0000</color>
+
+	<!-- Screens background color-->
+	<color name="bg_screen1">#f64c73</color>
+	<color name="bg_screen2">#20d2bb</color>
+	<color name="bg_screen3">#3395ff</color>
+
+	<!-- dots inactive colors -->
+	<color name="dot_dark_screen1">#d1395c</color>
+	<color name="dot_dark_screen2">#14a895</color>
+	<color name="dot_dark_screen3">#2278d4</color>
+
+	<!-- dots active colors -->
+	<color name="dot_light_screen1">#f98da5</color>
+	<color name="dot_light_screen2">#8cf9eb</color>
+	<color name="dot_light_screen3">#93c6fd</color>
+
+	<array name="array_dot_active">
+		<item>@color/dot_light_screen1</item>
+		<item>@color/dot_light_screen2</item>
+		<item>@color/dot_light_screen3</item>
+	</array>
+
+	<array name="array_dot_inactive">
+		<item>@color/dot_dark_screen1</item>
+		<item>@color/dot_dark_screen2</item>
+		<item>@color/dot_dark_screen3</item>
+	</array>
+
+	<color name="toolbar_background">#222222</color>
+	
+	<color name="divider_color">#595959</color>
+	<color name="cell_1">#ebebeb</color>
+	<color name="cell_2">#c7c7c7</color>
+</resources>

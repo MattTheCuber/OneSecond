@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+    <!-- app_id -->
+    <string name="app_id" translatable="false">1069366193786</string>
+    <!-- package_name -->
+    <string name="package_name" translatable="false">com.my.one.second</string>
+    <!-- achievement 1.00 -->
+    <string name="achievement_1" translatable="false">CgkI-tzE2Y8fEAIQAQ</string>
+    <!-- achievement 5.00 -->
+    <string name="achievement_5" translatable="false">CgkI-tzE2Y8fEAIQBQ</string>
+    <!-- achievement 10.00 -->
+    <string name="achievement_10" translatable="false">CgkI-tzE2Y8fEAIQBw</string>
+    <!-- achievement 30.00 -->
+    <string name="achievement_30" translatable="false">CgkI-tzE2Y8fEAIQCA</string>
+    <!-- achievement Under 200 -->
+    <string name="achievement_under_200" translatable="false">CgkI-tzE2Y8fEAIQCQ</string>
+    <!-- achievement Under 100 -->
+    <string name="achievement_under_100" translatable="false">CgkI-tzE2Y8fEAIQBg</string>
+    <!-- achievement Under 75 -->
+    <string name="achievement_under_75" translatable="false">CgkI-tzE2Y8fEAIQDQ</string>
+    <!-- achievement Under 50 -->
+    <string name="achievement_under_50" translatable="false">CgkI-tzE2Y8fEAIQDA</string>
+    <!-- achievement Under 25 -->
+    <string name="achievement_under_25" translatable="false">CgkI-tzE2Y8fEAIQFg</string>
+    <!-- achievement Beginner -->
+    <string name="achievement_beginner" translatable="false">CgkI-tzE2Y8fEAIQGA</string>
+    <!-- achievement Proficient -->
+    <string name="achievement_proficient" translatable="false">CgkI-tzE2Y8fEAIQFw</string>
+    <!-- achievement Expert -->
+    <string name="achievement_expert" translatable="false">CgkI-tzE2Y8fEAIQGg</string>
+    <!-- achievement First Try! -->
+    <string name="achievement_first_try" translatable="false">CgkI-tzE2Y8fEAIQFA</string>
+    <!-- achievement Never give up! -->
+    <string name="achievement_never_give_up" translatable="false">CgkI-tzE2Y8fEAIQFQ</string>
+    <!-- achievement You forgot to finish 1 -->
+    <string name="achievement_you_forgot_to_finish_1" translatable="false">CgkI-tzE2Y8fEAIQCw</string>
+    <!-- achievement You forgot to finish 2 -->
+    <string name="achievement_you_forgot_to_finish_2" translatable="false">CgkI-tzE2Y8fEAIQCg</string>
+    <!-- achievement Golden Ratio -->
+    <string name="achievement_golden_ratio" translatable="false">CgkI-tzE2Y8fEAIQBA</string>
+    <!-- achievement Euler's Number -->
+    <string name="achievement_eulers_number" translatable="false">CgkI-tzE2Y8fEAIQAw</string>
+    <!-- achievement π -->
+    <string name="achievement_pi" translatable="false">CgkI-tzE2Y8fEAIQDg</string>
+    <!-- achievement John 3:16 -->
+    <string name="achievement_john_316" translatable="false">CgkI-tzE2Y8fEAIQDw</string>
+    <!-- achievement 666 -->
+    <string name="achievement_666" translatable="false">CgkI-tzE2Y8fEAIQEA</string>
+    <!-- achievement 911, what's your emergency? -->
+    <string name="achievement_911" translatable="false">CgkI-tzE2Y8fEAIQEg</string>
+    <!-- achievement 1234 -->
+    <string name="achievement_1234" translatable="false">CgkI-tzE2Y8fEAIQEQ</string>
+    <!-- leaderboard Lowest Times (In Milliseconds) -->
+    <string name="leaderboard" translatable="false">CgkI-tzE2Y8fEAIQEw</string>
+</resources>

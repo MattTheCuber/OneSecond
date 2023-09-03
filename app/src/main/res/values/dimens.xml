@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="intro_dots_height">30dp</dimen>
+    <dimen name="intro_dots_margin_bottom">20dp</dimen>
+    <dimen name="intro_width_height">240dp</dimen>
+    <dimen name="intro_title">30dp</dimen>
+    <dimen name="intro_desc">16dp</dimen>
+    <dimen name="intro_desc_padding">40dp</dimen>
+</resources>

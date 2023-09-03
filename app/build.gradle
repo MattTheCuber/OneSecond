@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    /*signingConfigs {
+        config {
+            keyAlias 'one_second_upload_key'
+            keyPassword '1thess4'
+            storeFile file('C:/Users/Matthew/Documents/Programming/Android/My projects/keystores/One Second/one_second_upload_key.jks')
+            storePassword '1thess4'
+        }
+    }*/
+    compileSdk 34
+    defaultConfig {
+        applicationId "com.my.one.second"
+        minSdkVersion 17
+        targetSdkVersion 34
+        versionCode 79
+        versionName "1.4.3"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    namespace 'com.my.one.second'
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation "com.google.android.gms:play-services:12.0.1"
+    implementation "com.google.android.gms:play-services-games-v2:+"
+    implementation 'com.daimajia.easing:library:2.1@aar'
+    implementation 'com.daimajia.androidanimations:library:2.3@aar'
+    implementation 'com.android.support:appcompat-v7:34.0.0'
+    implementation 'com.android.support:design:34.0.0'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.17'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    //implementation 'androidx.viewpager2:viewpager2:1.1.0-alpha01'
+    implementation 'com.google.android.material:material:1.11.0-alpha02'
+}
